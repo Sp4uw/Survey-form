@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Survey Form</title>
+</head>
+<body>
+</script>
+<div class="title">
+<h1 id="title">One Piece Survey</h1>
+<p id="description">
+ This is a random survey about One Piece.
+</p>
+</div>
+<form id="survey-form" class="surveyform">
+ <label id="name-label">Name</label>
+ <input type="text" name="name" id="name" required placeholder="Luffy"><br>
+
+ <label id="email-label">Email</label>
+ <input type="email" name="email" id="email" required placeholder="luffy@onepiece.com"><br>
+
+ <label id="number-label">Number</label>
+ <input type="number" name="number" id="number" min="15" max="140" required placeholder="18"><br>
+
+
+ <label id="guitar-type-label">Which is the best arc?</label>
+ <select id="dropdown" name="arcs">
+   <option value="Dressrosa">Dressrosa</option>
+   <option value="Marineford">Marineford</option>
+   <option value="Punk Hazard">Punk Hazard</option>
+   <option value="Wano Kuni">        
+   <option value="Wano Kuni">Other</option>
+ </select>
+
+ <label id="additional-comments-label">Additional Comments:</label>
+ <textarea placeholder="Tell us what you thing about One Piece"></textarea><br>
+
+ <div id="button-area">
+   <label id="gender-label">Favourite Character</label>
+   <input type="radio" class="radio-inline" name="gender" value="male"> Luffy<br>
+   <input type="radio" class="radio-inline" name="gender" value="female"> Sanji<br>
+   <input type="radio" class="radio-inline" name="gender" value="other"> Zoro<br>
+ </div>
+ <div id="button-area">
+   <label id="transportation-type-label">Best Devilfruit</label>
+   <input type="checkbox" name="devilfruit" value="Bike"> Gomu gomu no mi<br>
+   <input type="checkbox" name="devilfruit" value="Car"> Bara bara no mi<br>
+   <input type="checkbox" name="devilfruit" value="Boat" checked> Mera mera no mi<br>
+ </div>
+
+ <input type="submit" id="submit">
+</form>
+</body>
+</html>
