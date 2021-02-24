@@ -1,2 +1,2 @@
 # Survey-form
-FreecodeAcademy Project2, Survey Form.
+This is my Survey Form that I have build for FreeCodeCamp Project 2.
